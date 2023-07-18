@@ -1,0 +1,498 @@
+/* Navbar */
+h2#logo {
+    font-family: 'raleway';
+    font-weight: 700;
+    font-size: 50px;
+}
+
+nav#nav_Top {
+    background-color: #800080 !important;
+    padding: 0 8%;
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'raleway';
+    padding-left: 30px;
+}
+
+input#searchBox {
+    position: relative;
+    left: 48px;
+    border: 0;
+    border-radius: 0;
+}
+
+button#searchBtn {
+    position: relative;
+    z-index: 99;
+    border: 0;
+    border-radius: 0;
+    background-color: #00bec9;
+    color: white;
+}
+
+/*Responsive NavBar*/
+@media only screen and (max-width: 1000px) {
+    /*ipad*/
+
+
+    form#searchform {
+        margin-bottom: 30px;
+        margin-top: 20px;
+        position: relative;
+        left: -20px;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    /*jio*/
+
+
+    h2#logo {
+        font-size: 32px;
+    }
+}
+
+/*====================================================================*/
+
+/*Banner*/
+div#banner {
+    background-color: #21282e;
+    padding-bottom: 20px;
+
+
+}
+
+#banner-txt h1 {
+    color: white;
+    font-size: 50px;
+    margin-top: 90px;
+
+}
+
+#banner-txt p {
+    color: white;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button#banner-btn1 {
+    background-color: #00bec9;
+    border: 2px solid #00bec9;
+    color: white;
+}
+
+button#banner-btn2 {
+    color: white;
+    border: 2px solid white;
+    margin-left: 25px;
+}
+
+#banner-img {
+
+    position: relative;
+    height: 87%;
+
+    top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*Responsive Banner*/
+@media only screen and (max-width: 924px) {
+    /*ipad*/
+
+
+    #banner-txt h1 {
+        color: white;
+        font-size: 40px;
+
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    /*motoG4*/
+
+
+    #banner-txt h1 {
+        color: white;
+        font-size: 34px;
+
+    }
+
+    #banner-txt p {
+
+        font-size: 20px;
+
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    /*jioPhone*/
+
+
+    #banner-txt h1 {
+        font-size: 22px;
+    }
+
+    #banner-txt p {
+        font-size: 15px;
+
+    }
+
+    button#banner-btn1 {
+        font-size: 15px;
+        width: 45%;
+
+    }
+
+    button#banner-btn2 {
+
+        font-size: 15px;
+        margin-left: 15px;
+        width: 45%;
+
+    }
+}
+
+/*====================================================================*/
+
+/* Service Section */
+#service {
+    padding-bottom: 20px;
+    /* border: 2px solid black; */
+}
+
+#service-text h1 {
+    margin-top: 90px;
+    font-size: 50px;
+}
+
+#service-text p {
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button#service-btn {
+    background-color: #DC3545;
+    color: white;
+    border: 2px solid #DC3545;
+    font-weight: 500;
+}
+
+img#ser {
+    height: 72%;
+    position: relative;
+    top: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+/*Responsive Service*/
+@media only screen and (max-width: 1212px) {
+    /*ipad-pro*/
+
+    #service-text h1 {
+        font-size: 41px;
+        font-weight: 600;
+
+    }
+
+    #service-text p {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 1005px) {
+    /*ipad*/
+
+    #service-text h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    #service-text p {
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    /*motoG4*/
+
+    #service-text h1 {
+        font-size: 31px;
+    }
+
+    #service-text p {
+        font-size: 22px;
+        /* text-align: justify; */
+    }
+
+    button#service-btn {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    img#ser {
+        top: 40px;
+    }
+
+
+}
+
+@media only screen and (max-width: 321px) {
+    /*jioPhone*/
+
+    #service-text h1 {
+        font-size: 20px;
+    }
+
+    #service-text p {
+        font-size: 15px;
+    }
+
+    img#ser {
+        top: 25px;
+    }
+}
+
+/*====================================================================*/
+
+/* Counter */
+div#counter {
+    /* border: 2px solid red; */
+    background-color: #24b5fa;
+    padding-top: 50px;
+    padding-bottom: 70px;
+
+}
+
+.Icons {
+    font-size: 70px;
+}
+
+@media only screen and (max-width: 500px) {
+    .Icons {
+        font-size: 50px;
+    }
+}
+
+/*====================================================================*/
+
+/*Recent Posts*/
+img#blog-img {
+    height: 48%;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    border: 2px solid #67646b;
+}
+
+div#blog {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+h1#blog-title {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+p#blog-p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 55px;
+}
+
+.blog-detail {
+    padding: 15px;
+    border: 2px solid rgb(185, 185, 185);
+    border-top: 0;
+}
+
+p.article-date {
+    color: #00bec9;
+    font-weight: bold;
+}
+
+p.article-text {
+    font-weight: 500;
+}
+
+a.text-decoration-none {
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+@media only screen and (max-width: 500px) {
+    p#blog-p {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 361px) {
+    p#blog-p {
+        font-size: 14px;
+    }
+
+    h1#blog-title {
+        font-size: 49px;
+    }
+}
+
+@media only screen and (max-width: 281px) {
+    .col-md-3 {
+        /* margin-top: 50px; */
+        margin-bottom: 35px;
+    }
+
+    h1#blog-title {
+        font-size: 36px;
+        font-weight: bolder;
+    }
+
+    p#blog-p {
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width: 241px) {
+
+    /*jiophone*/
+    .col-md-3 {
+        /* margin-top: 50px; */
+        margin-bottom: 70px;
+    }
+
+    h1#blog-title {
+        font-size: 36px;
+        font-weight: bolder;
+    }
+
+    p#blog-p {
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 25px;
+    }
+}
+
+/*====================================================================*/
+
+/* Footer */
+div#footer {
+    background-color: #343434;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+}
+
+form#footer-form {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input#footer-searchbox {
+    background-color: #fcc309;
+    color: white;
+    border: 0;
+    padding: 15px;
+    width: 100%;
+    max-width: 245px;
+    position: relative;
+    left: 10px;
+}
+
+button#footer-submit {
+    color: white;
+    background-color: #00bec9;
+    border: 0;
+    border-radius: 0;
+    padding: 15px 40px;
+}
+
+.social-icon {
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+@media only screen and (max-width:1150px) {
+    input#footer-searchbox {
+        max-width: 200px;
+    }
+}
+
+@media only screen and (max-width:769px) {
+    input#footer-searchbox {
+        max-width: 125px;
+    }
+
+    div#footer {
+        margin-top: 10px;
+    }
+
+    div#blog {
+        padding-bottom: 160px;
+    }
+
+    #service {
+        padding-bottom: 55px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    input#footer-searchbox {
+        max-width: 200px;
+    }
+
+    div#footer {
+        padding-top: 10px;
+    }
+
+    div#footer h4 {
+        padding-top: 50px;
+    }
+
+    div#blog {
+        padding-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width:321px) {
+    input#footer-searchbox {
+        max-width: 96px;
+    }
+
+    #fontt {
+        font-size: 11px;
+    }
+
+    div#footer {
+        padding-top: 10px;
+    }
+
+    div#footer h4 {
+        padding-top: 20px;
+    }
+
+    h4#Services {
+        margin-top: -10px;
+    }
+}
